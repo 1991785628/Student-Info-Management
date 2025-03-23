@@ -9,3 +9,5 @@ Student* build_balanced_bst(int start, int end);  // 构建平衡BST
 void inorder_traversal(Student* root);            // 中序遍历
 void free_tree(Student* root);                    // 内存释放
 int search_student(Student* root, const char* id); // 学号查询
+void build_hash_table(Student* root);
+Student* hash_search(const char* id);
